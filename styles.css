@@ -1,0 +1,8 @@
+/* Paper / parchment style (Theme C) */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Prompt:wght@300;600&display=swap');
+body.bg-paper { background: #fbf6ec; color: #222; font-family: 'Prompt', system-ui, -apple-system; }
+.spooky-font { font-family: 'Merriweather', serif; color: #2b2b2b; text-shadow: 0 1px 0 rgba(255,255,255,0.6); }
+.card { background: linear-gradient(180deg,#fffdf6,#fbf2e0); border: 1px solid #e6dac3; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.episode-title { font-weight:700; }
+.small-muted { color:#6b5e49; }
+@media (max-width:576px){ .spooky-font{font-size:1.5rem;} }
