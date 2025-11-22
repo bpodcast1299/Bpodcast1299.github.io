@@ -1,1 +1,1 @@
-console.log("site loaded");
+console.log('ghost site loaded');
