@@ -1,0 +1,11 @@
+body { background: #000; color: #ddd; font-family: Merriweather, serif; margin:0; }
+.container { padding: 24px; }
+.episodes-row { display:flex; gap:16px; overflow-x:auto; padding-bottom:8px; }
+.card { background:#0b0b0e; border-radius:12px; padding:12px; width:260px; min-height:260px; }
+.card img{ width:100%; height:140px; object-fit:cover; border-radius:8px; }
+.cover-placeholder{ height:140px; background:#111; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#666; }
+.btn { background:#b91c1c; color:white; display:inline-block; padding:10px 12px; border-radius:10px; text-decoration:none; }
+.admin { padding:20px; }
+.page img{ max-width:400px; display:block; margin-bottom:12px; }
+.episodes-row::-webkit-scrollbar { display:none; }
+.episodes-row { -ms-overflow-style:none; scrollbar-width:none; }
